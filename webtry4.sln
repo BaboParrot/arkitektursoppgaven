@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALtry6", "DALtry6\DALtry6.csproj", "{686084E5-9030-47E3-9D94-71545462EED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUStry6", "BUStry6\BUStry6.csproj", "{F9DC9182-EC11-4044-B14A-2872562951F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRONTtest7", "FRONTtest7\FRONTtest7.csproj", "{B974E4B9-60CD-477B-AA56-3C6EA1D90B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{686084E5-9030-47E3-9D94-71545462EED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686084E5-9030-47E3-9D94-71545462EED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686084E5-9030-47E3-9D94-71545462EED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686084E5-9030-47E3-9D94-71545462EED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DC9182-EC11-4044-B14A-2872562951F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DC9182-EC11-4044-B14A-2872562951F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DC9182-EC11-4044-B14A-2872562951F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DC9182-EC11-4044-B14A-2872562951F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B974E4B9-60CD-477B-AA56-3C6EA1D90B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B974E4B9-60CD-477B-AA56-3C6EA1D90B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B974E4B9-60CD-477B-AA56-3C6EA1D90B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B974E4B9-60CD-477B-AA56-3C6EA1D90B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1A4A2FE-DE66-4281-8258-F3DAA7585356}
+	EndGlobalSection
+EndGlobal

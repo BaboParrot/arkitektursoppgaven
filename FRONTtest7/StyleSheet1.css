@@ -1,0 +1,112 @@
+﻿/* Page background and layout */
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #7978bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Center and style the form */
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style for the ASP.NET button */
+input[id$="btnFetchUsers"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+input[id$="btnFetchUsers"]:hover {
+    background-color: #0056b3;
+
+}
+
+
+input[id$="btnRemoveUsers"] {
+    background-color: #dc3545; /* red */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+input[id$="btnRemoveUsers"]:hover {
+    background-color: #a71d2a;
+
+}
+.add-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+    .add-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Label styling */
+p, label {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Optional: Style GridView */
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.input-box {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
