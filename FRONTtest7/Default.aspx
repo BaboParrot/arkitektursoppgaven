@@ -18,15 +18,15 @@
         </p>
 
         <div>
-            <asp:Button ID="btnFetchUsers" runat="server" Text="Get Users" OnClick="btnFetchUsers_Click" Height="45px" Width="139px" />
+            <asp:Button ID="btnFetchUsers" runat="server" Text="Show Users" OnClick="btnFetchUsers_Click" Height="45px" Width="139px" />
         </div>
         <div style="margin-top: 10px;">
-            <asp:Button ID="btnRemoveUsers" runat="server" Text="Remove Users" OnClick="btnRemoveUsers_Click" CssClass="remove-button" Height="45px" Width="139px"  />
+            <asp:Button ID="btnRemoveUsers" runat="server" Text="Hide Users" OnClick="btnRemoveUsers_Click" CssClass="remove-button" Height="45px" Width="139px"  />
 
         </div>
 
         <p>
-            <asp:Label ID="lblUsernames" runat="server" Text="Usernames will appear here" />
+            <asp:Label ID="lblUsernames" runat="server" Text="Usernames will appear here!" />
         </p>
     <asp:GridView ID="GridViewUsers" runat="server" />
 

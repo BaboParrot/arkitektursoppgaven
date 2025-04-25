@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
-using System;
-using DALtry6;
+using System; // not directly used but can be used for logging etc
+using DALtry6; // not used either
 
 public class AppDbContext : DbContext
 {
