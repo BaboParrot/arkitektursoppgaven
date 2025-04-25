@@ -13,10 +13,10 @@ body {
 form {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
     text-align: center;
-    width: 400px;
+    width: 450px;
 }
 
 * {
@@ -64,8 +64,8 @@ input[id$="btnRemoveUsers"]:hover {
 
 }
 .add-button {
-    background-color: #007bff;
-    color: white;
+    background-color: #28d049;
+    color: red;
     padding: 12px 20px;
     border: none;
     border-radius: 12px;
@@ -77,7 +77,7 @@ input[id$="btnRemoveUsers"]:hover {
 }
 
     .add-button:hover {
-        background-color: #0056b3;
+        background-color: #2b873d;
     }
 
 /* Label styling */
