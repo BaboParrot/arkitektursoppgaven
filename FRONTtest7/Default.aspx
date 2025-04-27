@@ -10,7 +10,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-            
         <p>
             <asp:TextBox ID="txtNewUsername" runat="server" Placeholder="Enter new username" CssClass="input-box" />
             <asp:Button ID="btnAddUser" runat="server" Text="Add User" OnClick="btnAddUser_Click" CssClass="add-button" Height="45px" Width="139px"/>
@@ -28,7 +27,7 @@
         <p>
             <asp:Label ID="lblUsernames" runat="server" Text="Usernames will appear here!" />
         </p>
-    <asp:GridView ID="GridViewUsers" runat="server" />
+        <asp:GridView ID="GridViewUsers" runat="server" /> <%--this is what shows the table, can move it anywhere--%>
 
     </form>
 </body>
