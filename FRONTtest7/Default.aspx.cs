@@ -35,9 +35,9 @@ namespace FRONTtest7
             // Creates an instance of UserService from BUStry6 layer
             UserService userService = new UserService();
 
-            var usernames = userService.GetAllUsernames();
+            var usernames = userService.GetAllUsernames(); // by creating a new instance of userService, it gives access to all the methods in userService for this document
 
-            //// Log the usernames for debugging in vsc output window.
+            //// Logs the usernames for debugging in vsc output window.
             System.Diagnostics.Debug.WriteLine("Usernames fetched: " + string.Join(", ", usernames));
 
             // Display the usernames in the label
